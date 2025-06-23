@@ -1,0 +1,45 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+models/*.pkl
+*.joblib
+
+# Streamlit cache
+.streamlit/
+*.streamlit-*
+
+# VS Code settings
+.vscode/
+
+# Environment files
+.env
+*.env
+*.ini
+
+# Data files
+data/*.csv
+!data/telco_cleaned.csv  # keep cleaned dataset if needed
+
+# Logs and outputs
+*.log
+*.out
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
